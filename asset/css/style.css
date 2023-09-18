@@ -188,6 +188,16 @@ p {
     }
     section img {
         display: block;
+        width: 100%;
+        height: auto;
+    }
+    .box {
+        display: block
+    }
+    .box-img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
     
 }
