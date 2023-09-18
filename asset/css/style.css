@@ -161,3 +161,33 @@ p {
 .box p{
     text-align: justify;
 }
+@media screen and (max-width: 991.98) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+    }
+    
+}
